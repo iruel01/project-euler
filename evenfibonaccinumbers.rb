@@ -12,7 +12,7 @@ class Fibonnacisu
 			current += previous
 			previous = temp_previous
 
-			if current <= highest_num
+			if current <= highest_num and current % 2 == 0
 				fibonacci_list << current
 			end
 		end
